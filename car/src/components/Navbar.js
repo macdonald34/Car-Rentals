@@ -12,7 +12,8 @@ function Navbar() {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/cars">Cars</Link></li>
         <li><Link to="/booking">Booking</Link></li>
-        <li><Link to="/about">About</Link></li>
+        <li><Link to="/login">Register</Link></li>
+        
       </ul>
     </nav>
   );

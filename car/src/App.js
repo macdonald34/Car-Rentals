@@ -17,6 +17,7 @@ function App() {
         <Route path="/cars/:id" element={<CarDetails />} />
         <Route path="/booking" element={<BookingForm />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

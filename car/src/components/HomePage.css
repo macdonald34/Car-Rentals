@@ -1,0 +1,38 @@
+.testimonials {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.testimonials .testimonial {
+    display: inline-block;
+    width: 45%; /* Adjust width for larger screens */
+    margin: 0 2.5%; /* Margin to create spacing between testimonials */
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+.testimonials .testimonial p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.testimonials .testimonial .client {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Responsive Design for Testimonials */
+@media (max-width: 768px) {
+    .testimonials .testimonial {
+        width: 90%; /* Adjust width for smaller screens */
+        margin: 0 0 20px; /* Margin adjustment for spacing between testimonials */
+    }
+}
