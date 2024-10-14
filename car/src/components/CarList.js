@@ -4,6 +4,7 @@ function CarList() {
   const cars = [
     { id: 1, name: 'Toyota Camry', price: 40 },
     { id: 2, name: 'Honda Accord', price: 35 },
+    { id: 3, name:`` , price: },
   ];
 
   return (
