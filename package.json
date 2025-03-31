@@ -1,0 +1,23 @@
+{
+  "name": "car-rentals",
+  "version": "1.0.0",
+  "description": "it will be a fullstack for renting and selling cars for any and every budget to suit and care for everyone Don't miss Out",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macdonald34/Car-Rentals.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macdonald34/Car-Rentals/issues"
+  },
+  "homepage": "https://github.com/macdonald34/Car-Rentals#readme",
+  "dependencies": {
+    "react-icons": "^5.5.0"
+  }
+}

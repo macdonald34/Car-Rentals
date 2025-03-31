@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
+
 function CarDetails() {
   const { id } = useParams();
   const car = { id: 1, name: 'Toyota Camry', price: 40, description: 'A comfortable midsize sedan.' };
