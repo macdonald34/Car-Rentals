@@ -9,10 +9,10 @@ function Navbar() {
         <Link to="/">Car Rentals</Link>
       </div>
       <ul className="navbar-links">
-        <li><Link to="/">Home</Link></li>
+        <li><Link to="/home">Home</Link></li>
         <li><Link to="/cars">Cars</Link></li>
         <li><Link to="/booking">Booking</Link></li>
-        <li><Link to="/signup">About Us</Link></li>
+        <li><Link to="/about us">About Us</Link></li>
         
       </ul>
     </nav>

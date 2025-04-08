@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FaCar, FaSearch, FaStar, FaMapMarkerAlt, FaCalendarAlt, FaUserAlt } from 'react-icons/fa';
 import './HomePage.css';
+import heroImg from '../src/assets/hero.jpg'; // Example image path
 
 const HomePage = () => {
   const [searchQuery, setSearchQuery] = useState({
@@ -35,7 +36,7 @@ const HomePage = () => {
             type: 'Sports',
             price: 120,
             rating: 4.9,
-            image: '/.assets/images/ford-mustang.jpg',
+            image: '/assets/images/ford-mustang.jpg',
             seats: 4,
             transmission: 'Manual'
           },
@@ -73,7 +74,7 @@ const HomePage = () => {
   return (
     <div className="homepage">
       {/* Hero Section */}
-      <section className="hero-section" style={{ backgroundImage: `url('./assets/hero.jpg')` }}>
+      <section className="hero-section" style={{ backgroundImage: `url(${heroImg})` }}>
         <div className="hero-overlay">
           <div className="hero-content">
             <h1>Rent the Perfect Car for Your Journey</h1>
