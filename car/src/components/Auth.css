@@ -282,8 +282,7 @@ button:disabled {
   cursor: not-allowed;
 }
 
-    grid-template-columns: 1fr;
-  }
+    
 
   .auth-form-wrapper {
     padding: 40px;
@@ -292,7 +291,7 @@ button:disabled {
   .image-placeholder {
     height: 300px;
   }
-}
+
 
 @media (max-width: 768px) {
   .auth-page {
